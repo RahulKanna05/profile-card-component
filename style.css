@@ -8,6 +8,15 @@ body {
 	background-color: hsl(185, 75%, 39%);
 }
 
+#pattern-top {
+	position: absolute;
+	background-image: url(images/bg-pattern-top.svg);
+	background-repeat: no-repeat;
+	height: 978px;
+	width: 978px;
+	transform: translate(-25%,-50%);
+}
+
 #box {
 	width: 300px;
 	height: 387px;
@@ -20,7 +29,6 @@ body {
 }
 
 #profile-bgImage {
-	/*position: relative;*/
 	width: 300px;
 	height: 130px;
 	background-image: url(images/bg-pattern-card.svg);
@@ -79,7 +87,6 @@ body {
 	height: 100px;
 	text-align: center;
 	padding-top: 30px;
-	/*border: 1px solid black;*/
 }
 
 #one {
@@ -95,8 +102,28 @@ body {
 	padding-right: 30px;
 }
 
-#blank {
+#pattern-bottom {
+	position: absolute;
+	background-image: url(images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	height: 391px;
+	width: 778px;
+	right:0;
+	transform: translate(0%,84%);
+	
+}
+
+/*#blank {
 	height: 600px;
+}*/
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 50px;
+	left: 50%;
+	transform: translate(-50%,0);
+	font-size: 50px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
