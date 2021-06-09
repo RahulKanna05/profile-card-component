@@ -21,7 +21,7 @@ body {
 }
 
 #profile-bgImage {
-	position: relative;
+	/*position: relative;*/
 	width: 298px;
 	height: 140px;
 	background-image: url(images/bg-pattern-card.svg);
@@ -30,9 +30,12 @@ body {
 }
 
 #profile-pic {
+	width: 33%;
 	position: absolute;
-	top: 50%;
-	left: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 100%;
+	border: 10px solid white;
 }
 
 #profile
@@ -81,6 +84,10 @@ body {
 
 #three {
 	padding-right: 30px;
+}
+
+#blank {
+	height: 600px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
