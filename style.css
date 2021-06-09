@@ -10,7 +10,7 @@ body {
 
 #box {
 	width: 300px;
-	height: 380px;
+	height: 387px;
 	border-radius: 15px;
 	position: absolute;
 	left: 50%;
@@ -58,13 +58,17 @@ body {
 	transform: translate(-50%,0);
 }
 
-/*#profile-details {
-	position: relative;
-}*/
-
 .top-details {
 	font-weight: 700;
 	padding-bottom: 25px;
+}
+
+.seperator {
+	height: 7px;
+}
+
+.bottom-details {
+	font-size: 14px;
 }
 
 #one, #two, #three {
