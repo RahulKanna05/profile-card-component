@@ -127,3 +127,47 @@ body {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 980px) and (max-width: 1420px)
+{
+	#pattern-top {
+		transform: translate(-50%,-60%);
+	}
+
+	#pattern-bottom {
+		transform: translate(44%,38%);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 980px)
+{
+	#pattern-top {
+		transform: translate(-56%,-65%);
+	}
+
+	#pattern-bottom {
+		transform: translate(51%,41%);
+	}
+}
+
+@media (min-width: 480px) and (max-width: 768px)
+{
+	#pattern-top {
+		transform: translate(-66%,-75%);
+	}
+
+	#pattern-bottom {
+		transform: translate(61%,49%);
+	}
+}
+
+@media (max-width: 480px) 
+{
+	#pattern-top {
+		transform: translate(-66%,-75%);
+	}
+
+	#pattern-bottom {
+		transform: translate(61%,40%);
+	}
+}
