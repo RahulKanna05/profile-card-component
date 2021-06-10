@@ -106,11 +106,10 @@ body {
 	position: absolute;
 	background-image: url(images/bg-pattern-bottom.svg);
 	background-repeat: no-repeat;
-	height: 391px;
-	width: 778px;
-	right:0;
-	transform: translate(0%,84%);
-	
+	height: 978px;
+	width: 978px;
+	right: 0;
+	transform: translate(20%,34%);
 }
 
 /*#blank {
